@@ -1,10 +1,13 @@
 # pdmd-spectest
 
+A tool for showing how closely a given markdown implementation's html
+output matches that of [Pandoc](http://johnmacfarlane.net/pandoc/).
+
 For each small input-md/\*.md file, pdmd-spectest.pl renders it to
-html using both [Pandoc](http://johnmacfarlane.net/pandoc/) and some
-other markdown processor (specified on the command line), and compares
-the html outputs to see if they are the same (mostly ignoring
-whitespace). Call it from its project dir, for example:
+html using both Pandoc and some other markdown processor (specified on
+the command line), and then compares the html outputs to see if they
+are the same (mostly ignoring whitespace). Run it from its project
+dir, for example:
 
     ./pdmd-spectest.pl markdown2
 
