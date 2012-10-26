@@ -1,6 +1,8 @@
 #!/usr/bin/perl
 #
 # John Gabriele, 2012
+# Distributed under the MIT license. See the LICENSE file
+# details.
 
 use Modern::Perl;
 use autodie qw/:all/;
