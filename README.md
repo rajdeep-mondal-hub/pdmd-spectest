@@ -13,13 +13,16 @@ Output looks like this:
 
 ~~~
 Checking output of: /home/john/bin/markdown2.py
-bold ...     OK
-definition-lists ...	-- not the same --
-italics ...  OK
-lists ...    OK
-lists2 ...   OK
-table ...    -- not the same --
-...
+alt-delim-code-block ...	-- not the same --
+bold ...	OK
+code-block ...	-- not the same --
+code ...	OK
+definition-list ...	-- not the same --
+delim-code-block ...	-- not the same --
+italic ...	OK
+list-2 ...	OK
+list ...	OK
+table ...	-- not the same --
 ~~~
 
 Those output lines are named the same as the files in input-md
