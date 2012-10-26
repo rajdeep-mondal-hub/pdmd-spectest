@@ -14,6 +14,7 @@ Output looks like this:
 ~~~
 Checking output of: /home/john/bin/markdown2.py
 bold ...     OK
+definition-lists ...	-- not the same --
 italics ...  OK
 lists ...    OK
 lists2 ...   OK
