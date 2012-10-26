@@ -1,10 +1,10 @@
 # pdmd-spectest
 
-For each small file in input-md, render it to html using both
-[Pandoc](http://johnmacfarlane.net/pandoc/) and some other markdown
-processor (specified on the command line), and compare the html
-outputs to see if they are the same (ignoring whitespace). Call it
-from its project dir, for example:
+For each small input-md/\*.md file, pdmd-spectest.pl renders it to
+html using both [Pandoc](http://johnmacfarlane.net/pandoc/) and some
+other markdown processor (specified on the command line), and compares
+the html outputs to see if they are the same (mostly ignoring
+whitespace). Call it from its project dir, for example:
 
     ./pdmd-spectest.pl markdown2
 
