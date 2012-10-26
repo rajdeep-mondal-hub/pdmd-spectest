@@ -5,11 +5,11 @@ and some other markdown processor (specified on the command line), and
 compare the html outputs to see if they are the same (ignoring
 whitespace). Call it from its project dir, for example:
 
-    ./pdmd-spectest.pl markdown2.py
+    ./pdmd-spectest.pl markdown2
 
-where markdown2.py must be somewhere on your PATH.
+where markdown2 would have to be somewhere on your PATH.
 
-Output looks like this:
+Output looks something like this:
 
 ~~~
 Checking output of: /home/john/bin/markdown2.py
@@ -27,3 +27,10 @@ table ...	-- not the same --
 
 Those output lines are named the same as the files in input-md
 (without the filename extension).
+
+You can also specify a particular test you'd like to run:
+
+    ./pdmd-spectest.pl markdown2 <test-name>
+
+If the two outputs are not the same, pdmd-spectest will print them
+both out for inspection.
