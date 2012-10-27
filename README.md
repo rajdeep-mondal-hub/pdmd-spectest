@@ -1,5 +1,7 @@
 # pdmd-spectest
 
+Pandoc-Markdown-spectest
+
 A tool for showing how closely a given markdown implementation's html
 output matches that of [Pandoc](http://johnmacfarlane.net/pandoc/).
 
